@@ -1,5 +1,15 @@
 # Changelog
 
+## [v5] - 2023-10-03: Deprecate the LVM parts and remove large packages
+
+### Added
+
+- Configuration option to remove larger packages: `remove-large-packages`
+
+### Changed
+
+- (breaking) removed all LVM related modifications as they seemed instable on 22.04
+
 ## [v4] - 2021-03-25: Do not overprovision space by default
 
 ### Added
